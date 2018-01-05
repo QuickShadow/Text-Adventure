@@ -48,26 +48,26 @@ roomItems       ["GroundsKeepersOffice"] = ["ladder"]
 roomInteractive ["GroundsKeepersOffice"] = {}
 
 roomStatus      ["WineCellar"] = 0
-roomDescription ["WineCellar"] = ["This is a description of the Wine Cellar."]
-roomNorth       ["WineCellar"] = ["EntryHall"]
-roomEast        ["WineCellar"] = ["null"]
-roomSouth       ["WineCellar"] = ["null"]
-roomWest        ["WineCellar"] = ["null"]
-roomUp          ["WineCellar"] = ["null"]
-roomDown        ["WineCellar"] = ["null"]
+roomDescription ["WineCellar"] = ["This is a description of the Wine Cellar.", "This is a description of the Wine Cellar after the candles have been lit"]
+roomNorth       ["WineCellar"] = ["EntryHall",  "EntryHall"]
+roomEast        ["WineCellar"] = ["null",       "null"]
+roomSouth       ["WineCellar"] = ["null",       "null"]
+roomWest        ["WineCellar"] = ["null",       "null"]
+roomUp          ["WineCellar"] = ["null",       "null"]
+roomDown        ["WineCellar"] = ["null",       "null"]
 roomItems       ["WineCellar"] = []
-roomInteractive ["WineCellar"] = {}
+roomInteractive ["WineCellar"] = {"circle":"broken", "candle":0}
 
 roomStatus      ["Kitchen"] = 0
-roomDescription ["Kitchen"] = ["This is a description of the Kitchen."]
+roomDescription ["Kitchen"] = ["The large galley kitchen looks like it was abandoned halfway through a large meal being prepared.\nMarble sideboards are covered in food that has been left out for a few days, half chopped and half mouldy.\nA door in the north wall has stairs leading up just past it,\nand a door to the south leads back to the Pantry.\nA door in the east side leads out into a dark corridor."]
 roomNorth       ["Kitchen"] = ["ServantsStairs"]
 roomEast        ["Kitchen"] = ["DarkHallway"]
 roomSouth       ["Kitchen"] = ["Pantry"]
 roomWest        ["Kitchen"] = ["null"]
 roomUp          ["Kitchen"] = ["null"]
 roomDown        ["Kitchen"] = ["null"]
-roomItems       ["Kitchen"] = []
-roomInteractive ["Kitchen"] = {}
+roomItems       ["Kitchen"] = ["match"]
+roomInteractive ["Kitchen"] = {"drawer":"closed"}
 
 roomStatus      ["Pantry"] = 0
 roomDescription ["Pantry"] = ["This is a description of the Pantry when the player falls in from above.", "This is a description of the pantry."]
